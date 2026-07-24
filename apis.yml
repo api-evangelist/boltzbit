@@ -1,8 +1,31 @@
 aid: boltzbit
 name: Boltzbit
-description: Boltzbit is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Boltzbit builds General Learning Intelligence (GLI) — AI systems that
+  organizations can own, train, and control, learning continuously from
+  proprietary data rather than depending on static, vendor-controlled models.
+  Its product suite forms an operating system for AI-native software: BoltzHub, a
+  marketplace where creators sell AI-powered apps and consumers subscribe to
+  them; BoltzAgent, a self-learning assistant for research-backed chat, document
+  editing, and production-ready code generation; BoltzLearn, an LLM fine-tuning
+  platform for building custom models from your own data; and BoltzCloud, a
+  multi-cloud deployment backbone across GCP, AWS, and Azure. Boltzbit is backed
+  by Speedinvest. The company references an API product surface but does not yet
+  publish public API documentation, an OpenAPI specification, SDKs, or a
+  developer portal; this profile will be enriched as those surfaces are released.
 url: https://raw.githubusercontent.com/api-evangelist/boltzbit/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/686e2818d5523d438bf5b558/69124c29397e1d135e37dc97_boltzbit-webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Large Language Models
+- Generative AI
+- Enterprise AI
+- Model Fine-Tuning
+- MLOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://boltzbit.com
+- type: Blog
+  url: https://boltzbit.com/news
+- type: Support
+  url: https://boltzbit.com/contact
+- type: Login
+  url: https://flow.boltzbit.com/login
+- type: TermsOfService
+  url: https://boltzbit.com/terms-of-services
+- type: PrivacyPolicy
+  url: https://boltzbit.com/privacy
+- type: DomainSecurity
+  url: security/boltzbit-domain-security.yml
+- type: LLMsTxt
+  url: llms/boltzbit-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
