@@ -72,6 +72,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://account.boltzbit.com/pricing
+- type: Plans
+  url: plans/boltzbit-plans-pricing.yml
 - type: Website
   url: https://boltzbit.com
 - type: Blog
