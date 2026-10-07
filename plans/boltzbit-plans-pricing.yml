@@ -1,0 +1,51 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://account.boltzbit.com/pricing
+sources:
+- https://account.boltzbit.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Page lists seat plans plus an unpriced ENTERPRISE category. Prices are 'from' amounts with pay-as-you-go
+  token top-ups noted.
+plan_count: 3
+currency: GBP
+plans:
+- name: Free
+  price_text: from £0 /month*
+  price: 0
+  currency: GBP
+  period: month
+  unit: seat
+  included_quota: BoltzAgent; Live learning agent (memory only); Limited tokens; Limited agent disks &
+    CPUs; Limited files shares
+  overage: Pay-as-you-go token top-ups available on all plans
+- name: Pro
+  price_text: from £19.90 /month*
+  price: 19.9
+  currency: GBP
+  period: month
+  unit: seat
+  included_quota: BoltzAgent, BoltzHub; Live learning agent (human-in-the-loop); Extended tokens; Extended
+    Agent disks & CPUs; Extended files shares; Limited long running commands; App on Boltzhub for personal
+    use
+  overage: Pay-as-you-go token top-ups available on all plans
+- name: Ultra
+  price_text: from £99 /month*
+  price: 99
+  currency: GBP
+  period: month
+  unit: seat
+  included_quota: BoltzAgent, BoltzHub, BoltzLearn; Live learning agent (fully self-evolving); 10x tokens
+    than Pro; 10x Agent disks & CPUs; 10x share files and apps; 10x long running commands; commercial
+    use
+  overage: Pay-as-you-go token top-ups available on all plans
